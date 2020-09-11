@@ -107,7 +107,8 @@ class ViewController: UIViewController {
         
         lapButton.isEnabled = false
         
-        startButton.setTitle("Start", for: .normal)
+        startButton.setBackgroundImage(UIImage(systemName: "play.circle.fill"), for: .normal)
+        startButton.tintColor = .green
         lapButton.setTitle("Lap", for: .normal)
         
         mainTimerLabel.text = "00:00:00"
